@@ -101,3 +101,36 @@ h1,h2 {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
+.contenitore.vol2 {
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-inline:30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    max-width: 100%;
+    border-radius: 5%;
+    
+}
+.contenitore.vol2 p,h4 {
+    text-align:start;
+}
+.contenitore.vol2 h4 {
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.contenitore.vol2 p {
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.contenitore.vol2 img {
+    min-width: 100%;
+    object-fit: contain;
+}
+main {
+    max-width: 100%;
+}
